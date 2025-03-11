@@ -7,6 +7,14 @@
     "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "mdnmobile.apk"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "159983f9-2a6e-4477-a3ad-3ffec2256bc1"
+      }
+    }
   }
 }

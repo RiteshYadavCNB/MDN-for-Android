@@ -1,0 +1,52 @@
+MDN-for-Android(MDNMobile)/
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Loading.tsx
+│   │   │   └── ErrorBoundary.tsx
+│   │   ├── navigation/
+│   │   │   └── NavigationBar.tsx
+│   │   ├── webview/
+│   │   │   ├── MDNWebView.tsx
+│   │   │   └── WebViewControls.tsx
+│   │   ├── collections/
+│   │   │   ├── CollectionCard.tsx
+│   │   │   └── CollectionList.tsx
+│   │   └── saved/
+│   │       ├── SavedPageCard.tsx
+│   │       └── SavedPageList.tsx
+│   ├── screens/
+│   │   ├── browse/
+│   │   │   ├── BrowseScreen.tsx
+│   │   │   └── SearchBar.tsx
+│   │   ├── saved/
+│   │   │   └── SavedPagesScreen.tsx
+│   │   ├── collections/
+│   │   │   ├── CollectionsScreen.tsx
+│   │   │   └── CreateCollectionScreen.tsx
+│   │   └── readLater/
+│   │       └── ReadLaterScreen.tsx
+│   ├── hooks/
+│   │   ├── useStorage.ts
+│   │   ├── useWebView.ts
+│   │   └── useNetworkStatus.ts
+│   ├── utils/
+│   │   ├── storage.ts
+│   │   ├── constants.ts
+│   │   └── helpers.ts
+│   ├── types/
+│   │   ├── navigation.ts
+│   │   ├── storage.ts
+│   │   └── webview.ts
+│   ├── context/
+│   │   └── AppContext.tsx
+│   ├── services/
+│   │   └── api.ts
+│   └── styles/
+│       ├── theme.ts
+│       ├── colors.ts
+│       └── typography.ts
+├── App.tsx
+├── index.js
+└── package.json

@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "MDN-for-Android",
+    "slug": "MDN-for-Android",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
